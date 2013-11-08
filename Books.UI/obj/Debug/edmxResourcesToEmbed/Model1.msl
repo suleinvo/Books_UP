@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SyncServerTestModelStoreContainer" CdmEntityContainer="SyncServerTestEntities">
+    <EntitySetMapping Name="UnipagConnection">
+      <EntityTypeMapping TypeName="SyncServerTestModel.UnipagConnection">
+        <MappingFragment StoreEntitySet="UnipagConnection">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PaymentGateway" ColumnName="PaymentGateway" />
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="Configured" ColumnName="Configured" />
+          <ScalarProperty Name="AccountUid" ColumnName="AccountUid" />
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

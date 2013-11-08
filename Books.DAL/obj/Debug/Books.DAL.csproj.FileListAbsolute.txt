@@ -1,0 +1,10 @@
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\Books.DAL.dll.config
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\Books.DAL.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\Books.DAL.pdb
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\EntityFramework.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\EntityFramework.xml
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\obj\Debug\Books.DAL.csprojResolveAssemblyReference.cache
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\obj\Debug\Books.DAL.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\obj\Debug\Books.DAL.pdb

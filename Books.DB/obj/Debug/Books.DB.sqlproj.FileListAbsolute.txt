@@ -1,0 +1,5 @@
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\bin\Debug\Books.DB.dacpac
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\bin\Debug\Books.DB.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\bin\Debug\Books.DB.pdb
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\obj\Debug\Books.DB.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\obj\Debug\Books.DB.pdb

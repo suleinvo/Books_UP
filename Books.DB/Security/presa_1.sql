@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [presa]
+    WITH PASSWORD = N'jtdzqhwwSv&xdkfordy4ajnYmsFT7_&#$!~<8znaa|cg|vlw', SID = 0x7513423B75A6DE4BB962279430DD9B1B, DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+

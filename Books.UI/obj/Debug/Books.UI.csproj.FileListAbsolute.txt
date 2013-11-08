@@ -1,0 +1,14 @@
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\Books.UI.exe.config
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.csprojResolveAssemblyReference.cache
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.MainForm.resources
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.csproj.GenerateResource.Cache
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\Books.UI.exe
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\Books.UI.pdb
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\Books.DAL.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\EntityFramework.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\Books.DAL.pdb
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\EntityFramework.xml
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.exe
+c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.pdb
