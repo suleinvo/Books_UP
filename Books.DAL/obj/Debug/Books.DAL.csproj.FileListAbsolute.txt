@@ -8,3 +8,13 @@ c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\bin\Debug
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\obj\Debug\Books.DAL.csprojResolveAssemblyReference.cache
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\obj\Debug\Books.DAL.dll
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DAL\obj\Debug\Books.DAL.pdb
+C:\Books_UP\Books.DAL\obj\Debug\Books.DAL.csprojResolveAssemblyReference.cache
+C:\Books_UP\Books.DAL\obj\Debug\Books.DAL.dll
+C:\Books_UP\Books.DAL\bin\Debug\Books.DAL.dll.config
+C:\Books_UP\Books.DAL\bin\Debug\Books.DAL.dll
+C:\Books_UP\Books.DAL\bin\Debug\Books.DAL.pdb
+C:\Books_UP\Books.DAL\bin\Debug\EntityFramework.dll
+C:\Books_UP\Books.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Books_UP\Books.DAL\bin\Debug\EntityFramework.xml
+C:\Books_UP\Books.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Books_UP\Books.DAL\obj\Debug\Books.DAL.pdb

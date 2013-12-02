@@ -26,7 +26,7 @@ namespace Books.UI
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            this.dataGridView1.DataSource = Book.db.Books.ToList();
+            this.dataGridView1.DataSource = Book.Db.Books.ToList();
         }
 
         private void DataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs anError)
@@ -46,31 +46,26 @@ namespace Books.UI
                     Publisher = publisherText.Text
                 };
                 book.Save();
-                this.dataGridView1.DataSource = Book.db.Books.ToList();
+                this.dataGridView1.DataSource = Book.Db.Books.ToList();
             }
             catch (FormatException ex)
             {
                 MessageBox.Show(ex.Message);
-            }         
+            }
+            catch (BadDataException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void DeleteSelected_Click(object sender, EventArgs e)
         {
-            var books = (List<Book>)this.dataGridView1.DataSource;
-            foreach (DataGridViewRow p in this.dataGridView1.SelectedRows)
-            {
-                books[p.Index].Remove();
-            }
-            this.dataGridView1.DataSource = Book.db.Books.ToList();
+            DataManipulator.DeleteData(this.dataGridView1);
         }
 
         private void UpdateSelected_Click(object sender, EventArgs e)
         {
-            var books = (List<Book>)this.dataGridView1.DataSource;
-            foreach (DataGridViewRow p in this.dataGridView1.SelectedRows)
-            {
-                books[p.Index].Update();
-            }
+            DataManipulator.UpdateData(this.dataGridView1);
         }
     }
 }

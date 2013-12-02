@@ -12,3 +12,17 @@ c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\bin\Debug\EntityFramework.SqlServer.xml
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.exe
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.UI\obj\Debug\Books.UI.pdb
+C:\Books_UP\Books.UI\bin\Debug\Books.UI.exe.config
+C:\Books_UP\Books.UI\obj\Debug\Books.UI.exe
+C:\Books_UP\Books.UI\obj\Debug\Books.UI.pdb
+C:\Books_UP\Books.UI\obj\Debug\Books.UI.csprojResolveAssemblyReference.cache
+C:\Books_UP\Books.UI\obj\Debug\Books.UI.MainForm.resources
+C:\Books_UP\Books.UI\obj\Debug\Books.UI.csproj.GenerateResource.Cache
+C:\Books_UP\Books.UI\bin\Debug\Books.UI.exe
+C:\Books_UP\Books.UI\bin\Debug\Books.UI.pdb
+C:\Books_UP\Books.UI\bin\Debug\Books.DAL.dll
+C:\Books_UP\Books.UI\bin\Debug\EntityFramework.dll
+C:\Books_UP\Books.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Books_UP\Books.UI\bin\Debug\Books.DAL.pdb
+C:\Books_UP\Books.UI\bin\Debug\EntityFramework.xml
+C:\Books_UP\Books.UI\bin\Debug\EntityFramework.SqlServer.xml

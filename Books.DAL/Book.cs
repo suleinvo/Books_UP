@@ -6,54 +6,99 @@ using System.Data;
 using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace Books.DAL
 {
-    public class Database : DbContext
-    {
-        public DbSet<Book> Books { get; set; }
-        public void ToContainer(System.Windows.Forms.BindingSource container)
-        {
-            container.Clear();
-            foreach (var p in Books)
-            {
-                container.Add(p);
-            }
-        }
-    }
-
     public class Book 
     {
+        private DateTime _date;
+
         [NotMapped]
-        public static Database db = new Database();
+        public static Database Db = new Database();
 
         public int Id { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }
-        public DateTime Date { get; set; }
         public string Publisher { get; set; }
+        public DateTime Date 
+        {
+            get
+            {
+                return _date;
+            }
+            set
+            {
+                try
+                {
+                    OnDateChanged(new DateEventArgs(value, _date));
+                    _date = value;
+                }
+                catch (BadDataException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+
+
+        public Book()
+        {
+            DateChanged += HandleDateChanged;
+        }
+
+        public event EventHandler<DateEventArgs> DateChanged;
 
         public static IEnumerable<Book> Select(Func<Book, bool> predicate=null)
         {
-            var result = (predicate == null) ? db.Books.ToList() : db.Books.Where(predicate).ToList();
+            var result = (predicate == null) ? Db.Books.ToList() : Db.Books.Where(predicate).ToList();
             return result;
         }
 
         public void Save()
         {
-            db.Books.Add(this);
-            db.SaveChanges();
+            Db.Books.Add(this);
+            Db.SaveChanges();
         }
 
         public void Remove()
         {
-            db.Books.Remove(this);
-            db.SaveChanges();
+            Db.Books.Remove(this);
+            Db.SaveChanges();
         }
 
         public void Update()
         {
-            db.SaveChanges();
+            Db.SaveChanges();
+        }
+
+        protected virtual void OnDateChanged(DateEventArgs e)
+        {
+            EventHandler<DateEventArgs> handler = DateChanged;
+            if (handler != null)
+            {
+                handler(this, e);
+            }
+        }
+        private void HandleDateChanged(object sender, DateEventArgs e)
+        {
+            if (e.NewDate < new DateTime(2000, 1, 1))
+            {
+                throw new BadDataException(e.NewDate, e.OldDate, "Недопустимая дата, указываемая дата должна быть позднее 1го января 2000г");
+            }
+        }
+    }
+
+    public class DateEventArgs : EventArgs
+    {
+        public DateTime NewDate { get; set; }
+        public DateTime OldDate { get; set; }
+
+        public DateEventArgs(DateTime newDate, DateTime oldDate)
+        {
+            NewDate = newDate;
+            OldDate = oldDate;
         }
     }
 }

@@ -48,8 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BadDataException.cs" />
     <Compile Include="Book.cs" />
-    <Compile Include="BookContainerForDataGrid.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="DataManipulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

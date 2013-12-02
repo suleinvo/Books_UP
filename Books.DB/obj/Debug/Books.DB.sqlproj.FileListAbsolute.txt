@@ -3,3 +3,8 @@ c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\bin\Debug\
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\bin\Debug\Books.DB.pdb
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\obj\Debug\Books.DB.dll
 c:\users\suleinv\documents\visual studio 2012\Projects\Books\Books.DB\obj\Debug\Books.DB.pdb
+C:\Books_UP\Books.DB\bin\Debug\Books.DB.dacpac
+C:\Books_UP\Books.DB\bin\Debug\Books.DB.dll
+C:\Books_UP\Books.DB\bin\Debug\Books.DB.pdb
+C:\Books_UP\Books.DB\obj\Debug\Books.DB.dll
+C:\Books_UP\Books.DB\obj\Debug\Books.DB.pdb
